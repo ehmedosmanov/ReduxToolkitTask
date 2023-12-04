@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+}
+
+.calculator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  min-height: 100vh;
+
+  input {
+    outline: none;
+    border: 1px solid #aeaeae;
+    padding: 7px 12px;
+    box-shadow: none;
+    margin-bottom: 9px;
+    border-radius: 5px;
+  }
+  .actions {
+    display: flex;
+  }
+
+  .btn {
+    cursor: pointer;
+    background: #000;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 25px;
+  }
+}
