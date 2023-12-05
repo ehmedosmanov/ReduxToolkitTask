@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { addTodo, editTodo, removeTodo } from '../../features/todoSlice.js'
-import './index..scss'
+import './index.scss'
 
 const TodoList = () => {
   const [text, setText] = useState('')
